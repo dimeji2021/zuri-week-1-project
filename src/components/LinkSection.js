@@ -32,9 +32,7 @@ export const LinkSection = () => {
   return (
     <HoverStyle>
       {
-        links.map((i) =>{
-          return <a href={i.url}><LinkSectionStyle>{i.name}</LinkSectionStyle></a> 
-        })
+        links.map((i) =><a href={i.url}><LinkSectionStyle>{i.name}</LinkSectionStyle></a>)
       }
     </HoverStyle>
   )

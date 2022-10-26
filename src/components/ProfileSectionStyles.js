@@ -18,15 +18,7 @@ export const MainProfileWrapper = styled.div
         border-radius: 275px;    
         }
     #sharedButton{
-        position: absolute;
-        width: 40px;
-        height: 40px;
-        top: -20px;
-        right: 208px;
-        background: #FFFFFF;
-        border: 1px dashed #D0D5DD;
-        border-radius: 20px;
-        z-index: 2;
+        width: 20px;
         }
     `
 export const TitleStyle = styled.div`
@@ -38,4 +30,16 @@ text-align: center;
 /* Gray/900 */
 color: #101828;
 z-index: 1;
+`
+export const SharedButton = styled.button`
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -1.2rem;
+        right: 15%;
+        background: transparent;
+        border: 2px dotted lightgray;
+        border-radius: 100%;
+        z-index: -2;
+        cursor: pointer;
 `
