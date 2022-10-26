@@ -11,6 +11,7 @@ gap: 12px;
 
 width: 1152px;
 height: 76px;
+border: 1px solid red;
 background: #EAECF0;
 /* Shadow/xs */
 

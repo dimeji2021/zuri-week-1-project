@@ -11,6 +11,7 @@ gap: 24px;
 
 width: 1152px;
 height: 24px;
+border: 1px solid red;
 
 
 /* Inside auto layout */

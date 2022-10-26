@@ -14,8 +14,9 @@ align-items: center;
 padding: 32px 0px 0px;
 gap: 32px;
 
-width: 1216px;
+width: 1152px;
 height: 64px;
+border: 1px solid red;
 
 /* Gray/200 */
 
