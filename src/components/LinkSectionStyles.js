@@ -2,27 +2,18 @@ import styled from "styled-components";
 
 
 export const LinkSectionStyle = styled.p`
+box-sizing: border-box;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0px;
-gap: 12px;
+padding: 24px 32px;
+gap: 8px;
 
-width: 1152px;
+width: 100%;
 height: 76px;
-border: 1px solid red;
 background: #EAECF0;
-/* Shadow/xs */
-
-filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-
+border: 1px solid #EAECF0;
+border-radius: 8px;
 `
 

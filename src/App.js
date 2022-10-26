@@ -6,12 +6,14 @@ import { SocialSection } from "./components/SocialSection";
 
 function App() {
   return (
-    <AppStyles>
-      <ProfileSection />
-      <LinkSection/>
-      <SocialSection/>
-      <Footer/>
-    </AppStyles>
+    <>
+      <AppStyles>
+        <ProfileSection />
+        <LinkSection />
+        <SocialSection />
+      </AppStyles>
+      <Footer />
+    </>
   );
 }
 

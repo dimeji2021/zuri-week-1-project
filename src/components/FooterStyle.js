@@ -11,10 +11,8 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-padding: 32px 0px 0px;
-gap: 32px;
 
-width: 1152px;
+width: 100%;
 height: 64px;
 border: 1px solid red;
 
@@ -24,7 +22,19 @@ border-top: 1px solid #EAECF0;
 
 /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+`
+export const FooterWrapper = styled.div`
+padding: 50px 8%;
+`
+export const FooterText = styled.span`
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+
+/* Gray/500 */
+
+color: #667085;
 `

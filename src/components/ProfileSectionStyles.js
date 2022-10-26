@@ -7,13 +7,10 @@ export const MainProfileWrapper = styled.div
     align-items: center;
     justify-content:center;
     padding: 0px;
-    gap: 16px;
-    width: 1152px;
+    gap: 24px;
+    isolation: isolate;
+    width: 100%;
     height: 142px;
-    border: 1px solid red;
-
-
-
     #ImageStyle{
         width: 88px;
         height: 88px;
