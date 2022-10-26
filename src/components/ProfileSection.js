@@ -1,5 +1,5 @@
 import avatar from "../assets/kehinde.jpg";
-import { ImageStyle, MainProfileWrapper, TitleStyle } from "./ProfileSectionStyles";
+import { MainProfileWrapper, TitleStyle } from "./ProfileSectionStyles";
 
 
 export const ProfileSection = () => {
