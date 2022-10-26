@@ -11,14 +11,22 @@ export const MainProfileWrapper = styled.div
     isolation: isolate;
     width: 100%;
     height: 142px;
+    postion:relative;
+
     #ImageStyle{
         width: 88px;
         height: 88px;
         border-radius: 275px;    
         }
+        #sharedbuttonstyle{
+            z-index: -20;
+            border: 1px solid red;
+            postion:absolute;
+            top: 3rem;
+            right: 20%;
+        }
     `
 export const TitleStyle = styled.div`
-font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;

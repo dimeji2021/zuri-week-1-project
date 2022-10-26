@@ -14,14 +14,10 @@ align-items: center;
 
 width: 100%;
 height: 64px;
-border: 1px solid red;
-
-/* Gray/200 */
-
 border-top: 1px solid #EAECF0;
 
-/* Inside auto layout */
-
+@media only screen and (max-width: 600px){
+    display:none;
 `
 export const FooterWrapper = styled.div`
 padding: 50px 8%;
