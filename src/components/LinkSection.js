@@ -1,12 +1,12 @@
 import React from 'react'
-import { LinkSectionStyle } from './LinkSectionStyles'
+import { HoverStyle, LinkSectionStyle } from './LinkSectionStyles'
 
 export const LinkSection = () => {
 
   const links = [
     {
       name: "Twitter Link",
-      url: ""
+      url: "https://www.twitter.com"
     },
     {
       name: "Zuri Team",
@@ -30,12 +30,12 @@ export const LinkSection = () => {
     },
   ];
   return (
-    <div>
+    <HoverStyle>
       {
         links.map((i) =>{
-          return <LinkSectionStyle>{i.name}</LinkSectionStyle>
+          return <a href={i.url}><LinkSectionStyle>{i.name}</LinkSectionStyle></a> 
         })
       }
-    </div>
+    </HoverStyle>
   )
 }

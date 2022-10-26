@@ -17,3 +17,8 @@ border: 1px solid #EAECF0;
 border-radius: 8px;
 `
 
+export const HoverStyle = styled.div`
+p:hover{
+    background: #d0d5dd;
+}
+`
