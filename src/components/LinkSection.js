@@ -6,27 +6,27 @@ export const LinkSection = () => {
   const links = [
     {
       name: "Twitter Link",
-      url: "https://www.twitter.com"
+      url: "https://twitter.com/KehindeDimeji"
     },
     {
       name: "Zuri Team",
-      url: ""
+      url: "https://training.zuri.team/"
     },
     {
       name: "Zuri Books",
-      url: ""
+      url: "http://books.zuri.team/"
     },
     {
       name: "Python Books",
-      url: ""
+      url: "https://books.zuri.team/"
     },
     {
       name: "Background Check for Coders",
-      url: ""
+      url: "https://background.zuri.team/"
     },
     {
       name: "Design Books",
-      url: ""
+      url: "https://books.zuri.team/design-rules"
     },
   ];
   return (

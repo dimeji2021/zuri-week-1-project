@@ -8,7 +8,7 @@ export const ProfileSection = () => {
 
     return (
         <MainProfileWrapper>
-            <img src={sharedbutton} alt="sharedbutton" id="sharedbuttonstyle" />
+            <img src={sharedbutton} alt="sharedbutton" id="sharedButton" />
             <img src={avatar} alt="profile-img" id="ImageStyle" />
             <TitleStyle>  Kehinde Aregbesola </TitleStyle>
         </MainProfileWrapper>

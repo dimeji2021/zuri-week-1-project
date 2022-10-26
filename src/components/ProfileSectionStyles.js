@@ -11,19 +11,22 @@ export const MainProfileWrapper = styled.div
     isolation: isolate;
     width: 100%;
     height: 142px;
-    postion:relative;
-
+    position: relative;
     #ImageStyle{
         width: 88px;
         height: 88px;
         border-radius: 275px;    
         }
-        #sharedbuttonstyle{
-            z-index: -20;
-            border: 1px solid red;
-            postion:absolute;
-            top: 3rem;
-            right: 20%;
+    #sharedButton{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -20px;
+        right: 208px;
+        background: #FFFFFF;
+        border: 1px dashed #D0D5DD;
+        border-radius: 20px;
+        z-index: 2;
         }
     `
 export const TitleStyle = styled.div`
