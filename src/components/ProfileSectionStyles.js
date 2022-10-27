@@ -11,7 +11,7 @@ export const MainProfileWrapper = styled.div`
   width: 100%;
   height: 142px;
   position: relative;
-  #ImageStyle {
+  #profile__img{
     width: 88px;
     height: 88px;
     border-radius: 275px;

@@ -15,8 +15,8 @@ export const ProfileSection = () => {
         <img src={sharedbutton} alt="sharedbutton" className="bigScreen" />
         <img src={sharedbuttonmobile} alt="sharedbutton"className="mobileScreen"/>
       </SharedButton>
-      <img src={avatar} alt="profile-img" id="ImageStyle" />
-      <TitleStyle> Kehinde Aregbesola </TitleStyle>
+      <img src={avatar} alt="profile-img" id="profile__img" />
+      <TitleStyle id="twitter"> Kehinde Aregbesola </TitleStyle>
     </MainProfileWrapper>
   );
 };
