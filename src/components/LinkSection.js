@@ -1,48 +1,47 @@
-import React from 'react'
-import { HoverStyle, LinkSectionStyle } from './LinkSectionStyles'
+import React from "react";
+import { HoverStyle, LinkSectionStyle } from "./LinkSectionStyles";
 
 export const LinkSection = () => {
-
   const links = [
     {
       name: "Twitter Link",
       url: "https://twitter.com/KehindeDimeji",
-      id: ""
+      id: "twitter",
     },
     {
       name: "Zuri Team",
       url: "https://training.zuri.team/",
-      id: "btn__zuri"
-
+      id: "btn__zuri",
     },
     {
       name: "Zuri Books",
       url: "http://books.zuri.team/",
-      id: "books"
-
+      id: "books",
     },
     {
       name: "Python Books",
       url: "https://books.zuri.team/",
-      id: "book__python"
-
+      id: "book__python",
     },
     {
       name: "Background Check for Coders",
       url: "https://background.zuri.team/",
-      id: "pitch"
+      id: "pitch",
     },
     {
       name: "Design Books",
       url: "https://books.zuri.team/design-rules",
-      id: "book__design"
+      id: "book__design",
     },
   ];
   return (
     <HoverStyle>
-      {
-        links.map((i) =><a href={i.url}><LinkSectionStyle>{i.name}</LinkSectionStyle></a>)
-      }
+      {links.map((i) => (
+        <a href={i.url}>
+          <LinkSectionStyle>{i.name}</LinkSectionStyle>
+        </a>
+      ))}
+      <p id="slack">kehinde_id</p>
     </HoverStyle>
-  )
-}
+  );
+};
