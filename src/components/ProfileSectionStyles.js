@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const MainProfileWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -16,9 +15,9 @@ export const MainProfileWrapper = styled.div`
     height: 88px;
     border-radius: 275px;
   }
-  #sharedButton {
+  /* #sharedButton {
     width: 20px;
-  }
+  } */
 `;
 export const TitleStyle = styled.div`
   font-style: normal;
@@ -46,12 +45,10 @@ export const SharedButton = styled.button`
     display: none;
   }
 
-  @media only screen and (max-width: 376px) {
+  @media only screen and (max-width: 600px) {
     .bigScreen {
       display: none;
-    }
-  }
-  @media only screen and (max-width: 375px) {
+    } 
     .mobileScreen {
       display: inline;
     }

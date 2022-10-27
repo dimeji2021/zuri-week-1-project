@@ -26,7 +26,6 @@ export const FooterText = styled.span`
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
   text-align: center;
   color: #667085;
 `;
