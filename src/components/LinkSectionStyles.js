@@ -16,7 +16,7 @@ export const LinkSectionStyle = styled.p`
   border: 1px solid #eaecf0;
   border-radius: 8px;
   #slack {
-    visibility: hidden;
+    display: none;
   }
 `;
 
