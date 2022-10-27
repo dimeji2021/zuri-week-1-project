@@ -22,6 +22,9 @@ export const HoverStyle = styled.div`
 p:hover{
     background: #d0d5dd;
     color: #101828;
+    transition: transform 0.33s !important;
+    border-radius: 40px;
+    /* width: 100%; */
 }
 a:link{
     text-decoration: none;

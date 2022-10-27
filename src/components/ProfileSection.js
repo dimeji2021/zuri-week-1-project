@@ -1,19 +1,22 @@
 import avatar from "../assets/kehinde.jpg";
 import sharedbutton from "../assets/sharedbutton.svg";
+import sharedbuttonmobile from "../assets/sharedbuttonmobile.svg";
 
-import { MainProfileWrapper, SharedButton, TitleStyle } from "./ProfileSectionStyles";
-
+import {
+  MainProfileWrapper,
+  SharedButton,
+  TitleStyle,
+} from "./ProfileSectionStyles";
 
 export const ProfileSection = () => {
-
-    return (
-        <MainProfileWrapper>
-            <SharedButton>
-            <img src={sharedbutton} alt="sharedbutton" id="sharedButton" />
-            </SharedButton>
-            <img src={avatar} alt="profile-img" id="ImageStyle" />
-            <TitleStyle>  Kehinde Aregbesola </TitleStyle>
-        </MainProfileWrapper>
-
-    )
-}
+  return (
+    <MainProfileWrapper>
+      <SharedButton>
+        <img src={sharedbutton} alt="sharedbutton" className="bigScreen" />
+        <img src={sharedbuttonmobile} alt="sharedbutton"className="mobileScreen"/>
+      </SharedButton>
+      <img src={avatar} alt="profile-img" id="ImageStyle" />
+      <TitleStyle> Kehinde Aregbesola </TitleStyle>
+    </MainProfileWrapper>
+  );
+};

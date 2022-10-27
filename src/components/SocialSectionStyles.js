@@ -17,7 +17,7 @@ flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 1;
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 376px){
     display:none;
 }
 `
