@@ -21,7 +21,7 @@ export const ProfileSection = () => {
       </SharedButton>
       <img src={avatar} alt="profile-img" id="profile__img" />
       <TitleStyle id="twitter"> @KehindeDimeji </TitleStyle>
-      <p id="slack">kehinde_id</p>
+      <p id="slack">kehinde-dimeji</p>
     </MainProfileWrapper>
   );
 };
