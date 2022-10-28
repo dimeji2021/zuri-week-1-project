@@ -41,7 +41,6 @@ export const LinkSection = () => {
           <LinkSectionStyle>{i.name}</LinkSectionStyle>
         </a>
       ))}
-      {/* <p id="slack">kehinde_id</p> */}
     </HoverStyle>
   );
 };

@@ -13,10 +13,15 @@ export const ProfileSection = () => {
     <MainProfileWrapper>
       <SharedButton>
         <img src={sharedbutton} alt="sharedbutton" className="bigScreen" />
-        <img src={sharedbuttonmobile} alt="sharedbutton"className="mobileScreen"/>
+        <img
+          src={sharedbuttonmobile}
+          alt="sharedbutton"
+          className="mobileScreen"
+        />
       </SharedButton>
       <img src={avatar} alt="profile-img" id="profile__img" />
-      <TitleStyle id="twitter"> Kehinde Aregbesola </TitleStyle>
+      <TitleStyle id="twitter"> @KehindeDimeji </TitleStyle>
+      <p id="slack">kehinde_id</p>
     </MainProfileWrapper>
   );
 };

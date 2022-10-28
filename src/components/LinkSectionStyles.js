@@ -15,9 +15,6 @@ export const LinkSectionStyle = styled.p`
   background: #eaecf0;
   border: 1px solid #eaecf0;
   border-radius: 8px;
-  #slack {
-    display: none;
-  }
 `;
 
 export const HoverStyle = styled.div`

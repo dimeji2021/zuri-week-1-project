@@ -10,10 +10,13 @@ export const MainProfileWrapper = styled.div`
   width: 100%;
   height: 142px;
   position: relative;
-  #profile__img{
+  #profile__img {
     width: 88px;
     height: 88px;
     border-radius: 275px;
+  }
+  #slack {
+    display: none;
   }
   /* #sharedButton {
     width: 20px;
@@ -48,7 +51,7 @@ export const SharedButton = styled.button`
   @media only screen and (max-width: 600px) {
     .bigScreen {
       display: none;
-    } 
+    }
     .mobileScreen {
       display: inline;
     }
