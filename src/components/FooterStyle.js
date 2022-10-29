@@ -14,7 +14,7 @@ export const FooterStyle = styled.div`
   height: 64px;
   border-top: 1px solid #eaecf0;
 
-  @media only screen and (max-width: 376px) {
+  @media only screen and (max-width: 600px) {
     display: none;
   }
 `;
