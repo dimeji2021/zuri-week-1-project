@@ -15,7 +15,9 @@ export const FooterStyle = styled.div`
   border-top: 1px solid #eaecf0;
 
   @media only screen and (max-width: 600px) {
-    display: none;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
   }
 `;
 export const FooterWrapper = styled.div`
