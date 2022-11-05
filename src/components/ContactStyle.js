@@ -71,8 +71,11 @@ export const NameRow = styled.div`
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 720px;
+  width: 100%;
   height: 70px;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 export const Email = styled.div`
   width: 36px;
@@ -184,7 +187,7 @@ export const CheckBoxStyle = styled.div`
   align-items: flex-start;
   padding: 0px;
   gap: 12px;
-  width: 720px;
+  width: 100%;
   height: 24px;
 `;
 export const Button = styled.button`
@@ -196,7 +199,7 @@ export const Button = styled.button`
   align-items: center;
   padding: 12px 20px;
   gap: 8px;
-  width: 720px;
+  width: 100%;
   height: 48px;
   /* Placeholder*/
   font-family: "Inter";
@@ -221,7 +224,7 @@ export const SubWrapper = styled.div`
   align-items: flex-start;
   padding: 0px;
   gap: 48px;
-  width: 720px;
+  width: 100%;
   height: 616px;
 `;
 export const HeaderStyle = styled.div`
@@ -230,11 +233,8 @@ export const HeaderStyle = styled.div`
   align-items: flex-start;
   padding: 0px;
   gap: 48px;
-  width: 720px;
+  width: 100%;
   height: 616px;
-  @media only screen and (max-width:600px) {
-    flex-direction: row;
-  }
 `;
 export const FormWrapper = styled.form`
   display: flex;
@@ -250,4 +250,6 @@ export const MainWrapper = styled.div`
   align-items: center;
   padding: 64px 0px 96px;
   gap: 64px;
+  width: 75%;
+  margin-left: auto;
 `;
