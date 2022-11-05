@@ -94,12 +94,17 @@ export const EmailStyle = styled.div`
   padding: 0px;
   gap: 6px;
   width: 100%;
-  height: 100px;
+  height: 140px;
+  @media only screen and (max-width: 600px) {
+    height: 100px;
+  }
 `;
 export const MessageStyle = styled.div`
-  /* height: 100px; */
-  width:100%;
-  /* margin-bottom: 20px; */
+  width: 100%;
+  margin-bottom: 80px;
+  @media only screen and (max-width: 600px) {
+    height: 100px;
+  }
 `;
 export const MessageLabel = styled.label`
   height: 20px;
@@ -169,8 +174,10 @@ export const Button = styled.button`
   color: #ffffff;
   background: #1570ef;
   border: 1px solid #1570ef;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
+  @media only screen and (max-width: 600px) {
+    margin-top: 20px;
+  }
 `;
 export const HeaderStyle = styled.div`
   width: 100%;
@@ -182,7 +189,6 @@ export const FormWrapper = styled.form`
   align-items: flex-start;
   padding: 0px;
   width: 100%;
-  /* gap: 32px; */
 `;
 export const MainWrapper = styled.div`
   padding: 64px 0px 96px;
