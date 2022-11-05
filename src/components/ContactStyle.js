@@ -232,6 +232,9 @@ export const HeaderStyle = styled.div`
   gap: 48px;
   width: 720px;
   height: 616px;
+  @media only screen and (max-width:600px) {
+    flex-direction: row;
+  }
 `;
 export const FormWrapper = styled.form`
   display: flex;
