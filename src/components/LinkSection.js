@@ -39,6 +39,12 @@ export const LinkSection = () => {
       id: "book__design",
       title: "Design Books"
     },
+    {
+      name: "Contact",
+      url: "/contact",
+      id: "contact",
+      title: "Contact"
+    },
   ];
   return (
     <HoverStyle>

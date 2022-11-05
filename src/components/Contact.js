@@ -1,20 +1,30 @@
 import React from "react";
-import { FormWrapper, HeadingStyle, NameStyle, Wrapper } from "./ContactStyle";
+import {
+  ButtonStyle,
+  CheckBoxStyle,
+  EmailStyle,
+  FormWrapper,
+  HeadingStyle,
+  MessageStyle,
+  NameStyle,
+  Wrapper,
+} from "./ContactStyle";
+import { Footer } from "./Footer";
 
 export const Contact = () => {
   return (
-    <div>
-      <HeadingStyle>
-        <div>Contact Me</div>
-        <div>
-          Hi there, contact me to ask me about anything you have in mind.
-        </div>
-      </HeadingStyle>
-      <div>
+    <>
+      <Wrapper>
+        <HeadingStyle>
+          <div className="heading">Contact Me</div>
+          <div className="SupportingText">
+            Hi there, contact me to ask me about anything you have in mind.
+          </div>
+        </HeadingStyle>
+          <FormWrapper>
         <form>
-          <NameStyle>
-            <div>
-              <div>
+            <NameStyle>
+              <div className="firstname">
                 <label for="first_name">First name</label>
                 <input
                   type="text"
@@ -23,7 +33,7 @@ export const Contact = () => {
                   required
                 />
               </div>
-              <div>
+              <div className="lastname">
                 <label for="last_name">Last name</label>
                 <input
                   type="text"
@@ -32,35 +42,42 @@ export const Contact = () => {
                   required
                 />
               </div>
-            </div>
-          </NameStyle>
-          <div>
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="yourname@email.com"
-              required
-            />
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea
-              type="text"
-              id="message"
-              placeholder="Send me a message and i'll reply you as soon as possible"
-              required
-            />
-          </div>
-          <div>
-            <label for="privacy">
-              You agree to provide your data to {} who may contact you
-            </label>
-            <input type="checkbox" id="privacy" value="privacy" required />
-          </div>
-          <button id="btn__submit">Send message</button>
+            </NameStyle>
+            <EmailStyle>
+              <label for="email" className="email">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="yourname@email.com"
+                required
+              />
+            </EmailStyle>
+            <MessageStyle>
+              <label for="message" className="message">
+                Message
+              </label>
+              <textarea
+                type="text"
+                id="message"
+                placeholder="Send me a message and i'll reply you as soon as possible"
+                required
+              />
+            </MessageStyle>
+            <CheckBoxStyle>
+              <input type="checkbox" id="privacy" value="privacy" required />
+              <label for="privacy" className="checkbox">
+                You agree to provide your data to {} who may contact you
+              </label>
+            </CheckBoxStyle>
         </form>
-      </div>
-    </div>
+          </FormWrapper>
+          <ButtonStyle>
+            <button id="btn__submit">Send message</button>
+          </ButtonStyle>
+      </Wrapper>
+      <Footer/>
+    </>
   );
 };

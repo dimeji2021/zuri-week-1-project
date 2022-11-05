@@ -1,24 +1,16 @@
-import { AppStyles } from "./AppStyles";
+import { Route, Routes } from "react-router-dom";
 import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
-import { LinkSection } from "./components/LinkSection";
-import { ProfileSection } from "./components/ProfileSection";
-import { SocialSection } from "./components/SocialSection";
+import { DashBoard } from "./components/DashBoard";
 
 function App() {
   return (
     <>
-      {/* <AppStyles>
-        <ProfileSection />
-        <LinkSection />
-        <SocialSection />
-      </AppStyles>
-      <Footer /> */}
-      <Contact/>
+      <Routes>
+        <Route path="/" element={<DashBoard />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }
 
 export default App;
-
-
