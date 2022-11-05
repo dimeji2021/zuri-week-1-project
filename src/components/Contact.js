@@ -8,8 +8,6 @@ import {
   MessageInput,
   MessageLabel,
   Name,
-  TickBox,
-  TickBoxLabel,
   FormWrapper,
   Heading,
   SupportingText,
@@ -18,6 +16,8 @@ import {
   CheckBoxStyle,
   SubWrapper,
   HeaderStyle,
+  CheckBoxLabel,
+  CheckBox,
 } from "./ContactStyle";
 export const Contact = () => {
   return (
@@ -32,45 +32,47 @@ export const Contact = () => {
         <FormWrapper>
           <NameRow>
             <Name>
-              <Label for="username">First name</Label>
+              <Label for="first_name">First name</Label>
               <Input
                 type="text"
                 placeholder="Enter your first name"
-                id="username"
+                id="first_name"
               />
             </Name>
             <Name>
-              <Label for="username">Last name</Label>
+              <Label for="last_name">Last name</Label>
               <Input
                 type="text"
                 placeholder="Enter your last name"
-                id="username"
+                id="last_name"
               />
             </Name>
           </NameRow>
           <EmailStyle>
-            <Email for="username">Email</Email>
+            <Email for="email">Email</Email>
             <EmailInput
               type="text"
               placeholder="yourname@email.com"
-              id="username"
+              id="email"
             />
           </EmailStyle>
           <div>
-            <MessageLabel for="username">Message</MessageLabel>
+            <MessageLabel for="message">Message</MessageLabel>
             <MessageInput
               type="text"
               placeholder="Send me a message and I'll reply you as soon as possible..."
-              id="username"
+              id="message"
             />
           </div>
           <CheckBoxStyle>
-            <TickBox type="checkbox" name="cheese" id="cheese"></TickBox>
-            <TickBoxLabel for="cheese">
+            <CheckBox type="checkbox" name="cheese" id="cheese"></CheckBox>
+            <CheckBoxLabel for="cheese">
               You agree to providing your data to Dimeji who may contact you.
-            </TickBoxLabel>
+            </CheckBoxLabel>
           </CheckBoxStyle>
-          <Button type="button">Send message</Button>
+          <Button type="button" id="btn__submit">
+            Send message
+          </Button>
         </FormWrapper>
       </SubWrapper>
     </MainWrapper>

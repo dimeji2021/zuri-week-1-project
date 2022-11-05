@@ -155,7 +155,7 @@ export const MessageInput = styled.textarea`
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 `;
-export const TickBox = styled.input.attrs({ type: "checkbox" })`
+export const CheckBox = styled.input.attrs({ type: "checkbox" })`
   box-sizing: border-box;
   width: 20px;
   height: 20px;
@@ -165,7 +165,7 @@ export const TickBox = styled.input.attrs({ type: "checkbox" })`
   border: 1px solid #d0d5dd;
   border-radius: 6px;
 `;
-export const TickBoxLabel = styled.label`
+export const CheckBoxLabel = styled.label`
   width: 688px;
   height: 24px;
   /* Text md/Normal */
