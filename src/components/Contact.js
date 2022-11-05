@@ -1,4 +1,5 @@
 import React from "react";
+import { AppStyles } from "../AppStyles";
 import {
   ButtonStyle,
   CheckBoxStyle,
@@ -71,11 +72,11 @@ export const Contact = () => {
                 You agree to provide your data to {} who may contact you
               </label>
             </CheckBoxStyle>
-        </form>
-          </FormWrapper>
           <ButtonStyle>
             <button id="btn__submit">Send message</button>
           </ButtonStyle>
+        </form>
+          </FormWrapper>
       </Wrapper>
       <Footer/>
     </>

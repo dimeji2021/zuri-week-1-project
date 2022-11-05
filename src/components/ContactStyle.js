@@ -8,7 +8,10 @@ export const Wrapper = styled.div`
   gap: 64px;
 
   width: 80%;
-  height: 500px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 `;
 export const HeadingStyle = styled.div`
   display: flex;
@@ -18,7 +21,7 @@ export const HeadingStyle = styled.div`
   gap: 20px;
 
   width: 100%;
-  /* height: 94px; */
+  height: 94px;
   .heading {
     font-style: normal;
     font-weight: 600;
@@ -50,7 +53,7 @@ export const NameStyle = styled.div`
   gap: 24px;
 
   width: 100%;
-  /* height: 70px; */
+  height: 70px;
   .firstname,
   .lastname {
     display: flex;
@@ -68,9 +71,8 @@ export const EmailStyle = styled.div`
   gap: 6px;
 
   width: 100%;
-  /* height: 70px; */
+  height: 70px;
   .email {
-    
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -86,9 +88,8 @@ export const MessageStyle = styled.div`
   gap: 6px;
 
   width: 100%;
-  /* height: 158px; */
+  height: 153px;
   .message {
-    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -105,11 +106,9 @@ export const CheckBoxStyle = styled.div`
   gap: 12px;
 
   width: 100%;
-  /* height: 24px; */
+  height: 24px;
   .checkbox {
     width: 688px;
-    height: 24px;
-    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -124,10 +123,9 @@ export const ButtonStyle = styled.div`
   justify-content: center;
   align-items: center;
   padding: 12px 20px;
-  margin-top:2rem;
   gap: 8px;
 
-  width: 100%;
+  width: 80%;
   height: 38px;
   background: #1570ef;
   border: 1px solid #1570ef;
@@ -138,7 +136,7 @@ export const ButtonStyle = styled.div`
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    background:none;
-    border:none;
+    background: none;
+    border: none;
   }
 `;
