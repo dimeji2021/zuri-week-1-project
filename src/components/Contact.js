@@ -20,6 +20,7 @@ import {
   CheckBox,
   SubWrapper2,
   Container,
+  MessageStyle,
 } from "./ContactStyle";
 import { Footer } from "./Footer";
 export const Contact = () => {
@@ -63,14 +64,14 @@ export const Contact = () => {
                     id="email"
                   />
                 </EmailStyle>
-                <div>
+                <MessageStyle>
                   <MessageLabel for="message">Message</MessageLabel>
                   <MessageInput
                     type="text"
                     placeholder="Send me a message and I'll reply you as soon as possible..."
                     id="message"
                   />
-                </div>
+                </MessageStyle>
                 <CheckBoxStyle>
                   <CheckBox
                     type="checkbox"

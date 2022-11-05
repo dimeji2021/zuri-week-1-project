@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Heading = styled.div`
   width: 100%;
   height: 44px;
@@ -6,9 +7,8 @@ export const Heading = styled.div`
   font-weight: 600;
   font-size: 36px;
   margin-bottom: 20px;
-  /* line-height: 44px; */
   letter-spacing: -0.02em;
-  `;
+`;
 export const SupportingText = styled.div`
   font-style: normal;
   font-weight: 400;
@@ -43,18 +43,11 @@ export const Input = styled.input`
   border-radius: 8px;
 `;
 export const Name = styled.div`
-  /* display: flex;
-  flex-direction: column  ;
-  align-items: flex-start; */
   padding: 0px;
-  /* gap: 6px; */
-width: 50%;
+  width: 50%;
   height: 70px;
-
   @media only screen and (max-width: 600px) {
-
     width: 100%;
-    
   }
 `;
 export const NameRow = styled.div`
@@ -65,8 +58,7 @@ export const NameRow = styled.div`
   width: 100%;
   height: 140px;
   @media only screen and (max-width: 600px) {
-   display: block;
-    
+    display: block;
   }
 `;
 export const Email = styled.label`
@@ -102,7 +94,12 @@ export const EmailStyle = styled.div`
   padding: 0px;
   gap: 6px;
   width: 100%;
-  height: 70px;
+  height: 100px;
+`;
+export const MessageStyle = styled.div`
+  /* height: 100px; */
+  width:100%;
+  /* margin-bottom: 20px; */
 `;
 export const MessageLabel = styled.label`
   height: 20px;
@@ -153,7 +150,7 @@ export const CheckBoxStyle = styled.div`
   padding: 0px;
   gap: 12px;
   width: 100%;
-  height: 24px;
+  height: 50px;
 `;
 export const Button = styled.button`
   box-sizing: border-box;
@@ -176,47 +173,32 @@ export const Button = styled.button`
   border-radius: 8px;
 `;
 export const HeaderStyle = styled.div`
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 48px; */
   width: 100%;
   height: 94px;
   margin-bottom: 48px;
 `;
 export const FormWrapper = styled.form`
-  /* display: flex;
   flex-direction: column;
-  align-items: flex-start; */
+  align-items: flex-start;
   padding: 0px;
   width: 100%;
   /* gap: 32px; */
 `;
 export const MainWrapper = styled.div`
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   padding: 64px 0px 96px;
   width: 100vw;
   height: 85%;
 `;
 export const SubWrapper = styled.div`
-  /* display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 48px; */
   width: 90%;
   height: 90%;
 `;
 export const SubWrapper2 = styled.div`
-width: 60%;
-margin-left: auto;
-margin-right: auto
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 `;
 export const Container = styled.div`
-height: auto;
-width: 100vw;
+  height: auto;
+  width: 100vw;
 `;
