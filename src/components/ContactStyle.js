@@ -71,9 +71,6 @@ export const EmailStyle = styled.div`
   gap: 6px;
   width: 100%;
   height: 140px;
-  @media only screen and (max-width: 600px) {
-    height: 100px;
-  }
 `;
 export const Email = styled.label`
   height: 20px;
