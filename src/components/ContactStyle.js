@@ -4,6 +4,10 @@ export const HeaderStyle = styled.div`
   width: 100%;
   height: 94px;
   margin-bottom: 48px;
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 75px;
+  }
+
 `;
 export const Heading = styled.div`
   width: 100%;
