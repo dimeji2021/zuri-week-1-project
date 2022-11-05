@@ -1,50 +1,37 @@
-// import React from "react";
-// import { AppStyles } from "../AppStyles";
-// import {
-//   ButtonStyle,
-//   CheckBoxStyle,
-//   EmailStyle,
-//   FormWrapper,
-//   HeadingStyle,
-//   MessageStyle,
-//   NameStyle,
-//   Wrapper,
-// } from "./ContactStyle";
-// import { Footer } from "./Footer";
 
 import {
   Button,
-  CheckBoxWrapper,
   Email,
-  EmailBox,
   EmailInput,
-  Header,
   Input,
   Label,
   MainWrapper,
   MessageInput,
   MessageLabel,
   Name,
-  Names,
-  Paragraph,
   TickBox,
   TickBoxLabel,
-  Wrapper2,
-  HeaderWrappper,
   FormWrapper,
+  Heading,
+  SupportingText,
+  NameRow,
+  EmailStyle,
+  CheckBoxStyle,
+  SubWrapper,
+  HeaderStyle,
 } from "./ContactStyle";
 export const Contact = () => {
   return (
     <MainWrapper>
-      <Wrapper2>
-        <HeaderWrappper>
-          <Header> Contact Us</Header>
-          <Paragraph>
+      <SubWrapper>
+        <HeaderStyle>
+          <Heading> Contact Us</Heading>
+          <SupportingText>
             Hi there, contact me to ask me about anything you have in mind.
-          </Paragraph>
-        </HeaderWrappper>
+          </SupportingText>
+        </HeaderStyle>
         <FormWrapper>
-          <Names>
+          <NameRow>
             <Name>
               <Label for="username">First name</Label>
               <Input
@@ -61,15 +48,15 @@ export const Contact = () => {
                 id="username"
               />
             </Name>
-          </Names>
-          <EmailBox>
+          </NameRow>
+          <EmailStyle>
             <Email for="username">Email</Email>
             <EmailInput
               type="text"
               placeholder="yourname@email.com"
               id="username"
             />
-          </EmailBox>
+          </EmailStyle>
           <div>
             <MessageLabel for="username">Message</MessageLabel>
             <MessageInput
@@ -78,15 +65,15 @@ export const Contact = () => {
               id="username"
             />
           </div>
-          <CheckBoxWrapper>
+          <CheckBoxStyle>
             <TickBox type="checkbox" name="cheese" id="cheese"></TickBox>
             <TickBoxLabel for="cheese">
               You agree to providing your data to Dimeji who may contact you.
             </TickBoxLabel>
-          </CheckBoxWrapper>
+          </CheckBoxStyle>
           <Button type="button">Send message</Button>
         </FormWrapper>
-      </Wrapper2>
+      </SubWrapper>
     </MainWrapper>
   );
 };

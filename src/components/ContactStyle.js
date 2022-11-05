@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const Header = styled.div`
+export const Heading = styled.div`
   width: 448px;
   height: 44px;
   /* Display md/Semibold */
@@ -12,7 +12,7 @@ export const Header = styled.div`
   /* Gray/900 */
   color: #101828;
 `;
-export const Paragraph = styled.div`
+export const SupportingText = styled.div`
   /* Text xl/Normal */
   font-style: normal;
   font-weight: 400;
@@ -65,7 +65,7 @@ export const Name = styled.div`
   width: 348px;
   height: 70px;
 `;
-export const Names = styled.div`
+export const NameRow = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -110,7 +110,7 @@ export const EmailInput = styled.input`
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 `;
-export const EmailBox = styled.div`
+export const EmailStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -178,7 +178,7 @@ export const TickBoxLabel = styled.label`
   /* Gray/600 */
   color: #475467;
 `;
-export const CheckBoxWrapper = styled.div`
+export const CheckBoxStyle = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -215,7 +215,7 @@ export const Button = styled.button`
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 `;
-export const Wrapper2 = styled.div`
+export const SubWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -224,7 +224,7 @@ export const Wrapper2 = styled.div`
   width: 720px;
   height: 616px;
 `;
-export const HeaderWrappper = styled.div`
+export const HeaderStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
