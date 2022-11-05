@@ -73,9 +73,9 @@ export const NameRow = styled.div`
   gap: 24px;
   width: 100%;
   height: 70px;
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
     flex-direction: column;
-  }
+  } */
 `;
 export const Email = styled.label`
   width: 36px;
@@ -97,7 +97,7 @@ export const EmailInput = styled.input`
   align-items: center;
   padding: 10px 14px;
   gap: 8px;
-  width: 720px;
+  width: 100%;
   height: 44px;
   /* text placeholer */
   font-family: "Inter";
@@ -119,7 +119,7 @@ export const EmailStyle = styled.div`
   align-items: flex-start;
   padding: 0px;
   gap: 6px;
-  width: 720px;
+  width: 100%;
   height: 70px;
 `;
 export const MessageLabel = styled.label`
