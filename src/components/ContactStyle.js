@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const HeaderStyle = styled.div`
+  width: 100%;
+  height: 94px;
+  margin-bottom: 48px;
+`;
 export const Heading = styled.div`
   width: 100%;
   height: 44px;
@@ -27,10 +32,8 @@ export const Label = styled.label`
 export const Input = styled.input`
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 10px 14px;
-  gap: 8px;
   width: 100%;
   height: 44px;
   font-style: normal;
@@ -39,16 +42,7 @@ export const Input = styled.input`
   line-height: 24px;
   background: #ffffff;
   border: 1px solid #d0d5dd;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
-`;
-export const Name = styled.div`
-  padding: 0px;
-  width: 50%;
-  height: 70px;
-  @media only screen and (max-width: 600px) {
-    width: 100%;
-  }
 `;
 export const NameRow = styled.div`
   display: flex;
@@ -61,31 +55,13 @@ export const NameRow = styled.div`
     display: block;
   }
 `;
-export const Email = styled.label`
-  height: 20px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #344054;
-`;
-export const EmailInput = styled.input`
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 14px;
-  gap: 8px;
-  width: 100%;
-  height: 44px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  background: #ffffff;
-  border: 1px solid #d0d5dd;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
+export const Name = styled.div`
+  padding: 0px;
+  width: 50%;
+  height: 70px;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;
 export const EmailStyle = styled.div`
   display: flex;
@@ -99,12 +75,32 @@ export const EmailStyle = styled.div`
     height: 100px;
   }
 `;
-export const MessageStyle = styled.div`
+export const Email = styled.label`
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+`;
+export const EmailInput = styled.input`
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 14px;
   width: 100%;
-  margin-bottom: 80px;
-  @media only screen and (max-width: 600px) {
-    height: 100px;
-  }
+  height: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+`;
+
+export const MessageStyle = styled.div`
+  margin-bottom: 50px;
 `;
 export const MessageLabel = styled.label`
   height: 20px;
@@ -117,10 +113,8 @@ export const MessageLabel = styled.label`
 export const MessageInput = styled.textarea`
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   padding: 12px 14px;
-  gap: 8px;
   width: 100%;
   height: 132px;
   font-style: normal;
@@ -129,8 +123,19 @@ export const MessageInput = styled.textarea`
   line-height: 24px;
   background: #ffffff;
   border: 1px solid #d0d5dd;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
+`;
+export const CheckBoxStyle = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 100%;
+  height: 70px;
+  @media only screen and (max-width: 600px) {
+    height: 100px;
+  }
 `;
 export const CheckBox = styled.input.attrs({ type: "checkbox" })`
   box-sizing: border-box;
@@ -148,23 +153,8 @@ export const CheckBoxLabel = styled.label`
   line-height: 24px;
   color: #475467;
 `;
-export const CheckBoxStyle = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 12px;
-  width: 100%;
-  height: 50px;
-`;
 export const Button = styled.button`
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 20px;
-  gap: 8px;
   width: 100%;
   height: 48px;
   font-style: normal;
@@ -175,15 +165,8 @@ export const Button = styled.button`
   background: #1570ef;
   border: 1px solid #1570ef;
   border-radius: 8px;
-  @media only screen and (max-width: 600px) {
-    margin-top: 20px;
-  }
 `;
-export const HeaderStyle = styled.div`
-  width: 100%;
-  height: 94px;
-  margin-bottom: 48px;
-`;
+
 export const FormWrapper = styled.form`
   flex-direction: column;
   align-items: flex-start;

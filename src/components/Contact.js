@@ -76,9 +76,9 @@ export const Contact = () => {
                   <CheckBox
                     type="checkbox"
                     name="cheese"
-                    id="cheese"
+                    id="check__box"
                   ></CheckBox>
-                  <CheckBoxLabel for="cheese">
+                  <CheckBoxLabel for="check__box">
                     You agree to providing your data to Dimeji who may contact
                     you.
                   </CheckBoxLabel>
