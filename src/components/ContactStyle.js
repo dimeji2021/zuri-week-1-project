@@ -77,7 +77,7 @@ export const NameRow = styled.div`
     flex-direction: column;
   }
 `;
-export const Email = styled.div`
+export const Email = styled.label`
   width: 36px;
   height: 20px;
   /* Text sm/Medium */
@@ -122,7 +122,7 @@ export const EmailStyle = styled.div`
   width: 720px;
   height: 70px;
 `;
-export const MessageLabel = styled.div`
+export const MessageLabel = styled.label`
   width: 61px;
   height: 20px;
   /* Text sm/Medium */
